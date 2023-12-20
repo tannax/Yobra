@@ -1,0 +1,89 @@
+body {
+   padding-top: 56px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+   background-color: #343a40;
+   padding: 14px 16px;
+   border-bottom: 1px solid #2c3135;
+}
+
+.navbar-brand {
+   font-size: 1.5rem;
+   font-weight: bold;
+   color: #fff;
+   transition: color 0.3s;
+}
+
+.navbar-brand:hover {
+   color: #17a2b8;
+}
+
+.navbar-nav {
+   font-size: 1.2rem;
+}
+
+.nav-item {
+   margin-right: 15px;
+}
+
+.nav-link {
+   color: #fff;
+   transition: color 0.3s;
+}
+
+.nav-link:hover {
+   color: #17a2b8;
+}
+
+.container {
+   text-align: center;
+   padding: 100px 15px;
+}
+
+.container img:hover{
+   transition: filter 0.3s ease-in-out, transform 0.3s ease-in;
+   filter:brightness(200%);
+}
+
+.display-4 {
+   font-size: 3.5rem;
+   font-weight: bold;
+   color: #343a40;
+   animation: fadeInUp 1s ease-in-out;
+}
+
+.lead {
+   font-size: 1.25rem;
+   color: #6c757d;
+   animation: fadeInUp 1s ease-in-out;
+   animation-delay: 0.5s;
+}
+
+footer {
+   background-color: #343a40;
+   padding: 12px 0;
+   color: #fff;
+   position: relative;
+   bottom: 0;
+   width: 100%;
+}
+
+@keyframes fadeInUp {
+   from {
+      opacity: 0;
+      transform: translateY(20px);
+   }
+
+   to {
+      opacity: 1;
+      transform: translateY(0);
+   }
+}
+
+@media (max-width: 768px) {
+   .hero-section {
+      padding: 100px 0;
+   }
+}
